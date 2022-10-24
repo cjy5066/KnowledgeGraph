@@ -67,7 +67,6 @@ public class QueryController {
         param.put("disaster", disaster);
         param.put("id", id);
         Map<String, Object> retMap = query.showKnowledgeMap(param);
-
         return retMap;
     }
 
